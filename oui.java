@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class oui {
+public class oui { //oui foi um nome aleatorio para a pasta.
 public static void main (String[] args) {
 
 	Scanner scanner = new Scanner (System.in);
@@ -15,15 +15,15 @@ public static void main (String[] args) {
 				totalNotas += nota;
 			}
 	double media = totalNotas / numNotas;
-	System.out.println ("A média das notas é: " +media);
+	System.out.println ("A mÃ©dia das notas Ã©: " +media);
 	scanner.close();
 
 	if (media >= 7) {
 		System.out.println ("Aprovado!");
 	} else if (media < 7 && media >= 4) {
-		System.out.println ("Reprovado com dieito a recupeção");
+		System.out.println ("Reprovado com dieito a recupeÃ§Ã£o");
 	} else if (media < 4) {
-		System.out.println ("Reprovado sem direito a recuperação.");
+		System.out.println ("Reprovado sem direito a recuperaÃ§Ã£o.");
 	}
 }
 }
